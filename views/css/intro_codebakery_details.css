@@ -1,0 +1,129 @@
+#intro_text_group > h1{
+  font-size:3rem;
+  /* border:1px solid black; */
+  width:90%;
+  margin-bottom:4.5%;
+  font-family:'Nanum', sans-serif;
+}
+
+#introduce_contents{
+  display:flex;
+  flex-direction:row;
+  height:300px;
+  /* border:1px solid black; */
+  align-items: center;
+  justify-content: flex-end;
+}
+#intro_color_group{
+  width:100%;
+  margin:0 3%;
+  height:100%;
+}
+#CB_group_main{
+  width:auto;
+  height:90%;
+  margin-top:1%;
+  transform:rotate(-5deg);
+  opacity:0;
+  box-shadow:0;
+}
+
+
+
+
+/* #intro_color_group{
+  background-image:url("CB_group_main.jpg");
+  /* -webkit-filter: opacity(.7); */
+  filter: opacity(.7) sepia(0.3) saturate(1) ;
+  background-size:cover;
+  background-position:center center;
+} */
+
+#intro_text_group{
+  width:50%;
+  /* border:1px solid black;  */
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition:0.5s;
+  opacity:0;
+}
+#intro_text_group > h3{
+  /* border:1px solid black; */
+  font-size:1rem;
+  padding:3% 2%;
+  width:90%;
+  font-family:'Nanum', sans-serif;
+  text-align:justify;
+  text-indent:20px;
+  letter-spacing: -0.5px;
+  line-height:1.8;
+}
+
+#intro_details{
+  height:1000px;
+}
+
+#intro_details > div{
+width:100%;
+height:33.33%;
+}
+
+.intro_details1 >span > h1{
+  width:auto;
+  height:100px;
+  border:1px solid gray;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right:4%;
+}
+
+.intro_details1 > span > h2{
+  width:auto;
+  height:100px;
+  border:1px solid gray;
+  display:flex;
+  align-items: center;
+}
+
+.intro_details1 > span{
+  width:80%;
+  height:100%;
+  margin:0 10%;
+  border:1px solid gray;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro_details1{
+  background-color:#cff09e;
+  background-image:url("images/main_subMenu1.png");
+  background-size:100% 100%;
+  /* float:right; */
+}
+
+#intro_details1_Type1{
+  font-size:2.6rem;
+}
+
+#intro_details1_Type1 > span{
+  font-size:1.6rem;
+}
+
+.intro_details2{
+  background-color:#a8dba8;
+  background-image:url("images/main_subMenu2.png");
+  background-size:100% 100%;
+  /* float:left; */
+}
+.intro_details3{
+  background-color:#79bd9a;
+  background-image:url("images/main_subMenu3.png");
+  background-size:100% 100%;
+  /* float:right; */
+}
